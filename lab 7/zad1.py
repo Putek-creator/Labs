@@ -1,0 +1,12 @@
+import random
+tuple = (1,2,3,4)
+print(tuple)
+print(len(tuple))
+print(id(tuple))
+tuple = tuple + (5,6)
+print(tuple)
+print(len(tuple))
+print(id(tuple))
+lista = list(tuple)
+print(lista)
+print(id(lista))
